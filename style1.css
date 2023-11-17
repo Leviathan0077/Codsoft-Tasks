@@ -1,0 +1,74 @@
+body{
+    background-image: url(emre-CBh4D3l0EwM-unsplash.jpg);
+    background-size: cover;
+    
+}
+header{
+
+position: fixed;
+    padding: 0%;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 680px;
+    background-color:transparent;
+    display: flex;
+    justify-content:space-between
+    ;
+}
+
+.logo{
+    color: aliceblue;
+    width: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.nav a{
+    font-size: 19px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    padding-right: 5px;
+    
+    
+}
+.nav a:hover{
+    color: brown;
+
+}
+.body{
+    display:inline-block;
+    background-color:transparent;
+    text-align:left;
+    margin-top: 200px;
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 450px;
+}
+
+.hire{
+    height: 30px;
+    
+    
+    
+}
+.profile{
+    height: 30px;
+    
+}
+.hire :hover{
+    transition: 2s;
+}
+.sub-menu1{
+    display: none;
+}
+
+
+.nav:hover.sub-menu1{
+    display: block;
+    position: absolute;
+}
+
+
